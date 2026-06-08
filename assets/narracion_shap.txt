@@ -1,0 +1,15 @@
+DataBank Academy presenta: valores SHAP.
+
+En machine learning, SHAP explica una predicción dividiéndola en contribuciones.
+
+La propiedad aditiva dice que la predicción f de x parte de un valor base phi cero, y suma el impacto de cada variable phi i por x i.
+
+En un crédito, empezamos con una probabilidad promedio de aprobación del cincuenta por ciento.
+
+Un buen historial crediticio empuja la decisión treinta puntos hacia arriba.
+
+Pero deudas altas restan quince puntos.
+
+El resultado final es una probabilidad estimada del sesenta y cinco por ciento.
+
+Así, SHAP no solo da una predicción: muestra por qué el modelo llegó a ella.
