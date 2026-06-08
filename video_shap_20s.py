@@ -4,8 +4,8 @@ from manim import *
 
 
 ASSET_DIR = Path(__file__).parent / "assets"
-LOGO_PATH = ASSET_DIR / "cerebroDatabankHorizontal.png"
 AUDIO_PATH = ASSET_DIR / "narracion_shap.aiff"
+LOGO_PATH = ASSET_DIR / "cerebroDatabankHorizontal.png"
 
 
 class VideoSHAP20s(Scene):
@@ -160,3 +160,15 @@ class VideoSHAP20s(Scene):
         cierre.to_edge(DOWN, buff=0.45)
         self.play(FadeIn(cierre, shift=UP * 0.15), run_time=1.0)
         self.wait(6.0)
+
+        self.play(
+            FadeIn(logo, shift=UP * 0.15),
+            halo.animate.set_opacity(0.35),
+            run_time=1.6,
+        )
+        self.play(
+            logo.animate.scale(1.04),
+            halo.animate.scale(1.08).set_opacity(0.12),
+            linea.animate.set_opacity(0.85),
+            run_time=1.2,
+        )
