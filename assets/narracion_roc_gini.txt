@@ -1,0 +1,15 @@
+DataBank Academy presenta: Curva ROC, AUC y Coeficiente de Gini.
+
+La curva ROC nos ayuda a evaluar qué tan bien un modelo separa positivos y negativos.
+
+En el eje horizontal vemos falsos positivos. En el vertical, verdaderos positivos.
+
+La diagonal representa un modelo aleatorio, con un AUC de cero punto cinco.
+
+Una buena curva se aleja de esa línea y se acerca a la esquina superior izquierda.
+
+El AUC resume esa capacidad de separación en un solo número.
+
+El coeficiente de Gini transforma el AUC con la fórmula: dos por AUC menos uno.
+
+Así, ROC muestra el comportamiento, AUC lo resume, y Gini mide la ganancia frente al azar.
